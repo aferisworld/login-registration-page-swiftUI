@@ -13,6 +13,8 @@
 		B2F6609C241E5BAC00FC8E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F6609B241E5BAC00FC8E49 /* Assets.xcassets */; };
 		B2F6609F241E5BAC00FC8E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F6609E241E5BAC00FC8E49 /* Preview Assets.xcassets */; };
 		B2F660A2241E5BAC00FC8E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F660A0241E5BAC00FC8E49 /* LaunchScreen.storyboard */; };
+		B2F660AE241E6AFD00FC8E49 /* LoginSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F660AD241E6AFD00FC8E49 /* LoginSectionView.swift */; };
+		B2F660B0241E75CE00FC8E49 /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F660AF241E75CE00FC8E49 /* LoginContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B2F6609E241E5BAC00FC8E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2F660A1241E5BAC00FC8E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F660A3241E5BAC00FC8E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F660AD241E6AFD00FC8E49 /* LoginSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSectionView.swift; sourceTree = "<group>"; };
+		B2F660AF241E75CE00FC8E49 /* LoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B2F66095241E5BA900FC8E49 /* AppDelegate.swift */,
 				B2F66097241E5BA900FC8E49 /* SceneDelegate.swift */,
 				B2F66099241E5BA900FC8E49 /* ContentView.swift */,
+				B2F660AF241E75CE00FC8E49 /* LoginContentView.swift */,
+				B2F660AD241E6AFD00FC8E49 /* LoginSectionView.swift */,
 				B2F6609B241E5BAC00FC8E49 /* Assets.xcassets */,
 				B2F660A0241E5BAC00FC8E49 /* LaunchScreen.storyboard */,
 				B2F660A3241E5BAC00FC8E49 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				B2F66096241E5BA900FC8E49 /* AppDelegate.swift in Sources */,
 				B2F66098241E5BA900FC8E49 /* SceneDelegate.swift in Sources */,
+				B2F660AE241E6AFD00FC8E49 /* LoginSectionView.swift in Sources */,
 				B2F6609A241E5BA900FC8E49 /* ContentView.swift in Sources */,
+				B2F660B0241E75CE00FC8E49 /* LoginContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

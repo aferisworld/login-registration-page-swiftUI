@@ -9,13 +9,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    var activeButton:String = "login"
     var body: some View {
-        Text("Hello, World!")
+            VStack(spacing: 0)  {
+                Image("afterCutOff_foodImage")
+                    .resizable()
+                    .scaledToFit()
+                VStack {
+                 LoginSectionView(activeButton: activeButton)
+                    Spacer()
+                }
+            }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+       
+        Group{
         ContentView()
+        ContentView()
+            //.colorScheme(.dark)
+            //.background(Color.black)
+            .previewDevice("iPad Pro (9.7-inch)")
     }
+}
 }
